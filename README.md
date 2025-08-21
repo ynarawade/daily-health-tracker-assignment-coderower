@@ -1,16 +1,24 @@
-# daily_health_tracker
+# Daily Health Tracker
 
-A new Flutter project.
+A Flutter application to track your daily health activities, visualize weekly stats, and set walk reminders.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📸 Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+| Home | Activity Logs | Weekly Stats |
+|------|---------------|--------------|
+| ![Home](screenshots/home.png) | ![Activity Logs](screenshots/activity_logs.png) | ![Weekly Stats](screenshots/weekly_stats.png) |
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🌟 Features
+
+- **Activity Logs:** Track your daily activities with timestamps.  
+- **Weekly Stats:** Interactive bar charts to visualize weekly steps and activity.  
+- **Walk Reminders:** Countdown timer to next walk with reset and custom time selection.  
+- **Theme Support:** Dark and light mode support.  
+- **Simple Navigation:** Bottom navigation for easy access to Home, Logs, and Stats.
+
+
+
