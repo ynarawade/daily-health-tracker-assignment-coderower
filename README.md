@@ -5,9 +5,11 @@ A Flutter application to track your daily health activities, visualize weekly st
 ---
 
 ## 📸 Screenshots
-![Home](https://raw.githubusercontent.com/ynarawade/daily-health-tracker-assignment-coderower/refs/heads/main/screenshots/Screenshot_1755788412.png)  
-![Activity Logs](https://raw.githubusercontent.com/ynarawade/daily-health-tracker-assignment-coderower/refs/heads/main/screenshots/Screenshot_1755788416.png)  
-![Weekly Stats](https://raw.githubusercontent.com/ynarawade/daily-health-tracker-assignment-coderower/refs/heads/main/screenshots/Screenshot_1755788418.png)
+
+<img src="https://raw.githubusercontent.com/ynarawade/daily-health-tracker-assignment-coderower/refs/heads/main/screenshots/Screenshot_1755788412.png" width="300" />  
+<img src="https://raw.githubusercontent.com/ynarawade/daily-health-tracker-assignment-coderower/refs/heads/main/screenshots/Screenshot_1755788416.png" width="300" />  
+<img src="https://raw.githubusercontent.com/ynarawade/daily-health-tracker-assignment-coderower/refs/heads/main/screenshots/Screenshot_1755788418.png" width="300" />
+
 
 
 
