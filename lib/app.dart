@@ -1,3 +1,4 @@
+import 'package:daily_health_tracker/bindings/bindings.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:daily_health_tracker/utils/theme.dart';
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       initialRoute: AppRoutes.login,
       getPages: AppPages.pages,
+      initialBinding: AppBindings(),
     );
   }
 }

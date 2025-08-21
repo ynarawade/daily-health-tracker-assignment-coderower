@@ -3,8 +3,11 @@ import 'package:flutter/material.dart';
 class AppColors {
   // Brand Accent (used in buttons, highlights, links)
   static const Color primaryBlue = Color(0xFF1565C0); // strong trust blue
-  static const Color primaryBlueLight = Color(0xFF42A5F5); // hover/pressed state
+  static const Color primaryBlueLight = Color(
+    0xFF42A5F5,
+  ); // hover/pressed state
   static const Color primaryBlueDark = Color(0xFF0D47A1); // darker shade
+  static const Color grey = Color.fromARGB(255, 163, 163, 163); // darker shade
 
   // ---------- Light Theme ----------
   static const Color lightBackground = Color(0xFFF5F5F5); // soft gray bg

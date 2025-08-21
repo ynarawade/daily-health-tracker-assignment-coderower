@@ -52,7 +52,7 @@ final serverClientId = dotenv.env['GOOGLE_SERVER_CLIENT_ID'];
       userPhoto.value = user.photoUrl ?? "";
       ToastUtil.success("Welcome, ${user.displayName ?? 'User'}!");
 
-      Get.offAllNamed(AppRoutes.home);
+      Get.offAllNamed(AppRoutes.main);
     } else if (event is GoogleSignInAuthenticationEventSignOut) {
       _clearUser();
       Get.offAllNamed(AppRoutes.login);
