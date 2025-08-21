@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:daily_health_tracker/utils/theme.dart'; // <-- your AppTheme file
+import 'package:daily_health_tracker/utils/theme.dart';
+import 'routes/app_pages.dart';
+import 'routes/app_routes.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -13,7 +15,8 @@ class MyApp extends StatelessWidget {
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
       themeMode: ThemeMode.dark,
-      home: const Scaffold(body: Center(child: Text("Hello GetX"))),
+      initialRoute: AppRoutes.login,
+      getPages: AppPages.pages,
     );
   }
 }
