@@ -9,17 +9,6 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     final AuthController authController = Get.find<AuthController>();
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Home"),
-        actions: [
-          IconButton(
-            onPressed: () {
-              authController.signOut();
-            },
-            icon: const Icon(Icons.logout),
-          ),
-        ],
-      ),
       body: Center(
         child: Obx(() {
           if (!authController.isSignedIn.value) {

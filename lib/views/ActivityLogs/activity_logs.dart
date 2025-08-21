@@ -6,10 +6,9 @@ import '../../widgets/activity_card.dart';
 class ActivityLogsPage extends StatelessWidget {
   ActivityLogsPage({super.key});
 
-  final ActivityController _controller = Get.find<ActivityController>();
-
   final ScrollController _scrollController = ScrollController();
 
+  final ActivityController _controller = Get.put(ActivityController());
   @override
   Widget build(BuildContext context) {
     _scrollController.addListener(() {
@@ -21,7 +20,6 @@ class ActivityLogsPage extends StatelessWidget {
     });
 
     return Scaffold(
-      appBar: AppBar(title: const Text("Activity Logs")),
       body: Obx(() {
         if (_controller.activities.isEmpty && _controller.isLoading.value) {
           return const Center(child: CircularProgressIndicator());
